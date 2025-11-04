@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donor Information</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="lab3.css">
+</head>
+
+<body>
+  <form action="/register" method="POST">
+    <h2>Donor Information</h2>
+
+    <label for="firstname">First Name*  
+    <input type="text" id="firstname" name="firstname" required>
+
+    <label for="lastname">Last Name*  
+
+    <input type="text" id="lastname" name="lastname" required>
+
+  
+    <label for="company">  Company  
+
+
+    <input type="text" id="company" name="company" required>
+
+    <label for="address1">Address 1*
+
+
+
+    <input type="text" id="address1" name="address1" required>
+
+    <label for="address2">Address 2 
+
+
+    <input type="text" id="address2" name="address2" required>
+
+    <label for="city">  City*
+
+
+
+    <input type="text" id="city" name="city" required>
+
+
+
+    <label for="state">State*
+
+
+    <select id="state" name="state" required>
+      <option value="Bangladesh">Bangladesh</option>
+      <option value="USA">USA</option>
+      <option value="India">India</option>
+      <option value="UK">UK</option>
+    </select>
+
+
+    
+    <label for="zipcode">Zip Code*
+
+    <input type="zipcode" id="zipcode" name="zipcode" required>
+
+
+    <label for="country">Country
+
+
+    <select id="country" name="country" required>
+      <option value="Bangladesh">Bangladesh</option>
+      <option value="USA">USA</option>
+      <option value="India">India</option>
+      <option value="UK">UK</option>
+    </select>
+
+    <label for="phone">Phone
+    <input type="text" id="phone" name="phone" required>
+
+    <label for="fax">Fax
+    <input type="text" id="fax" name="fax" required>
+
+    
+
+    <label for="email">Email
+    <input type="email" id="email" name="email" required>
+
+
+
+
+  <label>Donation Amount
+    <div class="gender-group">
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">None
+
+      <input type="radio" id="female" name="gender" value="Female" required>
+      <label for="female">$50
+
+       <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">$75
+
+      <input type="radio" id="female" name="gender" value="Female" required>
+      <label for="female">$100
+
+       <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">$250
+
+      <input type="radio" id="female" name="gender" value="Female" required>
+      <label for="female">Other
+    </div>
+
+    <label for="otheramount">Other Amount $
+    <input type="otheramount" id="otheramount" name="otheramount" required>
+    <br></br>
+
+     <label>Recurring Donation
+     <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      I am interested in giving on a regular basis.
+    </label>
+
+<br></br>
+    
+        <h2>Honorarium and Memorial Donation Information</h2>
+
+
+
+        <label>I would like to make this donation
+        
+        <div class="gender-group">
+          <input type="radio" id="male" name="gender" value="Male" required>
+          <label for="male">To Honor 
+          <input type="radio" id="female" name="gender" value="Female" required>
+          <label for="female">In Memory of
+        </div>
+
+        <label for="name"> Name
+        <input type="text" id="name" name="name" required>
+        <label for="firstname">Acknowladge Donation to
+        <input type="text" id="firstname" name="firstname" required>
+        <label for="address2">Address  
+    <input type="text" id="address2" name="address2" required>
+    <label for="address2">City
+    <input type="text" id="address2" name="address2" required>
+
+    <label for="state">State*
+    <select id="state" name="state" required>
+      <option value="Bangladesh">Bangladesh</option>
+      <option value="USA">USA</option>
+      <option value="India">India</option>
+      <option value="UK">UK</option>
+    </select>
+    <label for="zip">Zip
+    <input type="zip" id="zip" name="zip" required>
+
+
+
+    <h2>Additional Information</h2>
+    <label>Please enter your name, company or organization as you would like it to appear in our publications:</label>
+
+<label for="name"> Name</label>
+        <input type="text" id="name" name="name" required>
+
+
+
+<label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      I would like my gift to remain anonymous.
+    </label>
+
+    <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      my employer offers a matching gift program. I will mail the matching gift form.
+    </label>
+
+
+    <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      Please save the cost of acknowledging this gift bt not mailing a thank you letter.
+    </label>
+
+
+
+<label for="comments"> Comments</label>
+        <input type="text" id="comments" name="comments" required>
+
+
+
+
+<label>How may we contact you?</label>
+  <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      E-mail
+    </label>
+
+    <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      Postal Mail
+    </label>
+
+
+    <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      Telephone
+    </label>      
+
+
+     <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      Fax
+    </label>      
+
+
+
+    <label>I would like to receive newsletter and information about special events by:</label>
+
+<label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      E-mail
+    </label>      
+
+
+     <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      Postal Mail
+    </label>  
+
+
+
+<label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      I would like information about volunteering with the ChillBruh.
+    </label>      
+
+
+
+  
+ 
+
+    <label class="terms">
+      <input type="checkbox" id="terms" name="terms" required>
+      I agree to the terms and conditions.
+    </label>
+
+    <button type="submit">Continue</button> 
+    <button type="submit">Reset</button>
+<br></br>
+ <label>Donate online with confidence. You are on a secure server.</label>
+  <label>If you have any problems or questions, please contact support.</label>
+
+  </form>
+</body>
+</html>
