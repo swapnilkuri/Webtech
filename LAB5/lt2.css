@@ -1,0 +1,171 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4cfd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 195h;
+    margin: 0;
+  }
+  
+  /* Form Container */
+  form {
+    background-color: #e7edee;
+    padding: 85px 95px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 750px;
+  }
+  
+  /* Form Header */
+  h2 {
+    text-align: left;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels and Inputs */
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 60%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+
+
+  /* Labels and Inputs for otheramount */
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="otheramount"],
+  select {
+    width: 20%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+
+    /* Labels and Inputs for zip */
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="zip"],
+  select {
+    width: 20%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+
+  /* Labels and Inputs for zipcode */
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="zipcode"],
+  select {
+    width: 50%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+
+
+
+  /* Radio Buttons */
+  .gender-group {
+    margin-bottom: 15px;
+  }
+  
+  .gender-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .gender-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+  }
+  
+  /* Checkbox */
+  .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+  
+  .terms input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  /* Button */
+  button {
+    width: 15%;
+    padding: 10px;
+    background-color: #8b8b8b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Input Focus */
+  input:focus, select:focus {
+    outline: none;
+    border-color: #8b8b8b;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    form {
+      width: 90%;
+    }
+  }
+  
