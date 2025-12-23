@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup - Hotel Noor</title>
+    <link rel="stylesheet" href="guestsignup.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Hotel Noor</div>
+        <nav>
+     <a href="homepage.html">Home</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="receptionist.html">Login</a>
+            <a href="bookroom.html">Book Now</a>
+            <a href="guestsignup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Signup Form Section -->
+    <section class="signup-form">
+        <h2>Create an Account</h2>
+        <form action="/submit-signup" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Choose a username">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Create a password">
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 HotelNoor | All Rights Reserved</p>
+        <p>Contact: info@hotelnoor.com | +8801854107456</p>
+    </footer>
+
+</body>
+</html>
